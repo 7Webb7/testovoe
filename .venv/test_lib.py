@@ -33,7 +33,8 @@ class Triangle(Shape):
         return math.isclose(sides[0] ** 2 + sides[1] ** 2, sides[2] ** 2)
 
 def compute_area(shape: Shape):
-    a = a - b
+
+
     return shape.area()
 
 if __name__ == "__main__":
